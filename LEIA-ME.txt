@@ -1,0 +1,26 @@
+FÉRIASFLOW — PROTÓTIPO ACADÊMICO (Kitasawa)
+
+REQUISITOS: Windows, Python 3.10 ou superior, conexão à internet apenas para instalar Flask.
+
+COMO EXECUTAR:
+1. Extraia o ZIP para uma pasta.
+2. Abra a pasta FeriasFlow no Explorador de Arquivos.
+3. Clique na barra de endereço, digite cmd e pressione Enter.
+4. Execute: py -m pip install -r requirements.txt
+5. Execute: py app.py
+6. Abra no navegador: http://127.0.0.1:5000
+7. Para encerrar, volte ao terminal e pressione Ctrl+C.
+
+CONTAS FICTÍCIAS (todas usam a senha Demo@2026!):
+Colaborador: ana@exemplo.test
+Gestor: marina@exemplo.test
+RH: carla@exemplo.test
+
+PARA AS 3 CAPTURAS EXIGIDAS:
+1. Entre como Ana e capture a tela Painel inicial.
+2. Clique em Solicitar férias e capture o formulário preenchido com datas fictícias.
+3. Saia, entre como Marina e capture a tela Análise de solicitações.
+
+O banco feriasflow.db é criado automaticamente na primeira execução. Para restaurar os dados fictícios originais, feche o programa e exclua o arquivo feriasflow.db.
+
+IMPORTANTE: este é um MVP para fins acadêmicos, não um sistema pronto para produção. Não utilize dados pessoais reais. A contagem é simplificada em dias corridos; não implementa integralmente a legislação de férias, auditoria completa, recuperação de senhas, testes automatizados ou segurança de implantação pública. A chave de sessão é gerada a cada inicialização quando não configurada por variável de ambiente.
