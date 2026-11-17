@@ -39,6 +39,28 @@ Facilitar o planejamento, a solicitação e a análise de férias dos colaborado
 O protótipo utiliza contas e dados fictícios. Não publique bancos de dados locais, senhas reais, chaves secretas ou informações pessoais no repositório público.
 
 ## Contexto acadêmico
+
+
+## Revisão técnica do MVP
+
+Esta revisão documenta aspectos técnicos do FériasFlow para orientar a manutenção e a evolução do sistema.
+
+### Segurança
+- Verificar a proteção das senhas por hash seguro.
+- Revisar o controle de acesso conforme o perfil do usuário.
+- Garantir que dados reais e chaves secretas não sejam publicados no GitHub.
+
+### Organização e legibilidade
+- Manter as rotas Flask organizadas e com nomes claros.
+- Separar as interfaces HTML dos recursos CSS.
+- Documentar as principais funcionalidades do sistema.
+
+### Melhorias propostas
+- Ampliar os testes automatizados das solicitações de férias.
+- Verificar mensagens de erro e validação de datas.
+- Revisar a acessibilidade dos formulários e botões.
+
+As melhorias propostas deverão ser verificadas e implementadas conforme a evolução do MVP.
 Projeto desenvolvido para a disciplina Projeto de Software, com práticas de prototipação, implementação, versionamento e validação de funcionalidades.
 
 ## Observação
