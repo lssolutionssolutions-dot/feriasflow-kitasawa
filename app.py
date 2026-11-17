@@ -193,6 +193,10 @@ def decidir(sol_id):
     flash('Solicitação '+status+' com sucesso.', 'sucesso')
     return redirect(url_for('aprovacoes'))
 
+
+# Inicializa o banco de dados no Render e localmente
+init_db()
+
 if __name__ == '__main__':
-    init_db()
     app.run(host='127.0.0.1', port=5000, debug=False)
+
